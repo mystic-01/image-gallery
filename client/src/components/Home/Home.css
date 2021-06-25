@@ -1,0 +1,130 @@
+.home {
+  color: #fff;
+  background-color: #161616;
+  padding: 0 50px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.home h2{
+  min-width: 780px;
+  margin-bottom:20px;
+  font-size: 1.6rem;
+  position: relative;
+  padding:5px 0 5px 10px;
+  border-left: 5px solid #dd304a;
+}
+
+
+.home__images {
+  display: flex;
+  justify-content: center;
+}
+
+.home__imageBox-2{
+  margin: 0 20px;
+}
+
+.home__imageBox {
+  display: flex;
+  flex-direction: column;
+  background-color: #161616;
+}
+
+.home__imageBox img {
+  margin-bottom: -15px;
+  width: 250px;
+  border: 5px solid transparent;
+  border-radius: 15px;
+  transition: all 0.2s ease-in;
+}
+
+.home__imageBox > div:hover img {
+  border-color: black;
+  box-shadow: rgba(0, 0, 0, 0.32) 0px 15px 15px -7px;
+}
+
+.home__imageBox .home__imageInfo {
+  border-radius: 10px;
+  border-color: black;
+  position: relative;
+  top: -40px;
+  left: 0;
+  display: flex;
+  padding: 0 20px;
+  justify-content: space-between;
+}
+
+
+
+.home__imageInfo .icon, .home__imageInfo p{
+  padding: 5px 5px 0 5px;
+  border-radius: 8px;
+  color: transparent;
+  background-color: transparent;
+  transition: all 0.2s ease-in;
+}
+
+.home__imageBox > div:hover .icon{
+  color: #DD304A;  
+  cursor: pointer;
+  background-color: #161616;
+}
+
+.home__imageInfo p{
+  color: transparent;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding-left: 8px;
+  padding-right: 8px;
+  transition: all 0.2s ease-in;
+}
+
+.home__imageBox > div:hover p{
+  color: #fff;  
+  background-color: #161616;
+}
+
+/* Buttons */
+.home__links > a {
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.home__links > a:hover {
+  color: #dd304a;
+}
+
+.home__logout, .home__loadMore {
+  margin-left: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  text-align: center;
+  width: 100px;
+  background-image: linear-gradient(to top right, #a53880, #dd304a, #f8673e);
+}
+.home__loadMore {
+  width: 200px;
+  margin: 20px 0 40px 0;
+}
+
+@media screen and (max-width: 700px) {
+  .home__images {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .home h2{
+    min-width:270px;
+  }
+
+  .home__imageBox-2{
+    margin: 0;
+  }
+}
