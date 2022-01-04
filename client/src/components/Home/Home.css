@@ -2,13 +2,13 @@
   color: #fff;
   background-color: #161616;
   padding: 0 50px;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   min-height: 100vh;
 }
 
-.home h2{
+.home h2 {
   min-width: 780px;
   margin-bottom:20px;
   font-size: 1.6rem;
@@ -114,7 +114,7 @@
   margin: 20px 0 40px 0;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   .home__images {
     display: flex;
     justify-content: center;
@@ -126,5 +126,8 @@
 
   .home__imageBox-2{
     margin: 0;
+  }
+  .home__links > a {
+    display: none;
   }
 }

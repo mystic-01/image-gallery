@@ -68,7 +68,7 @@ const Home = ({ favourites }) => {
                       <div>
                         <img src={image.download_url} alt={image.author} />
                         <div className="home__imageInfo">
-							<p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
+							          <p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
                         </div>
                       </div>
                     );
@@ -81,7 +81,7 @@ const Home = ({ favourites }) => {
                       <div>
                         <img src={image.download_url} alt={image.author} />
                         <div className="home__imageInfo">
-							<p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
+							          <p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
                         </div>
                       </div>
                     );
@@ -109,7 +109,7 @@ const Home = ({ favourites }) => {
                     <div>
                       <img src={image.download_url} alt={image.author} />
                       <div className="home__imageInfo">
-					  	<p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
+					  	          <p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
                       </div>
                     </div>
                   );
@@ -122,7 +122,7 @@ const Home = ({ favourites }) => {
                     <div>
                       <img src={image.download_url} alt={image.author} />
                       <div className="home__imageInfo">
-						  <p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
+						            <p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
                       </div>
                     </div>
                   );
@@ -135,7 +135,7 @@ const Home = ({ favourites }) => {
                     <div>
                       <img src={image.download_url} alt={image.author} />
                       <div className="home__imageInfo">
-						  <p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
+						            <p>{image.author}</p><p className="icon" onClick={() => favoriteHandler(image._id)}><FavoriteIcon /></p>
                       </div>
                     </div>
                   );
